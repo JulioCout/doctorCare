@@ -1,0 +1,80 @@
+.App {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.08em;
+        color: var(--green);
+        text-align: center;
+        text-transform: uppercase;
+        
+        margin-top: 40px;
+    }
+    
+    h4 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 130%;
+        text-align: center;
+        color: var(--gray-headline);
+
+        margin-top: 16px;
+    }
+
+    header {
+        background-color: var(--green-light);
+        padding: 72px 24px 252px;
+        display: flex;
+        flex-direction: column;
+    
+        .headerText{
+            display: flex;
+            flex-direction: column;
+        
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                text-align: center;
+                color: #495057;
+        
+                margin-top: 24px;
+            }
+        
+            button {
+                align-self: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 20px;
+                gap: 16px;
+                
+                width: 263px;
+                height: 52px;
+                border: none;
+        
+                background: var(--green);
+                border-radius: 40px;
+        
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+        
+                margin-top: 32px;
+            }
+        }
+    
+        #womanPic {
+            margin-top: 60px;
+            align-self: center;
+        }
+    }
+
+}
+
