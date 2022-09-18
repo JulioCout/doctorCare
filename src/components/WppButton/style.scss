@@ -1,0 +1,21 @@
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 16px;
+    
+    width: 263px;
+    height: 52px;
+    border: none;
+
+    background: var(--green);
+    border-radius: 40px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

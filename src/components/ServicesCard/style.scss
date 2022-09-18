@@ -1,0 +1,20 @@
+.card {
+    width: 327px;
+    border: 1px solid #DCE9E2;
+    border-radius: 6px;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h2 {
+        white-space: nowrap;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 150%;
+        color: #495057;
+    }
+}
