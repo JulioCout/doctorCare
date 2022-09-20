@@ -150,3 +150,40 @@
     }
 }
 
+@media screen and (min-width: 1180px) {
+    .App{
+        max-width: 1366px;
+        align-items: center;
+
+        h3 {
+            text-align: left;
+        }
+
+        h4 {
+            text-align: left;
+        }
+
+        header {
+            flex-direction: row;
+            padding: 72px 124px 252px;
+
+            .headerText {
+                max-width: 600px;
+                p {
+                    text-align: left;
+                }
+
+                button {
+                    align-self: flex-start;
+                }
+            }
+
+            #womanPic {
+                align-self: flex-end;
+            }
+        }
+
+        
+
+    }
+}

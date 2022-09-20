@@ -28,3 +28,13 @@
     }
 
 }
+
+@media screen and (min-width: 1180px) {
+    .stats {
+        flex-direction: row;
+        width: 1120px;
+        justify-content: space-between;
+        padding: 60px 120px;
+        // margin: -105px;
+    }
+}
