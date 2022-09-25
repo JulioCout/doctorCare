@@ -17,5 +17,26 @@
 
 body {
     font-family: "DM Sans", sans-serif;
-    background-color: var(--green);
+
+    h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.08em;
+        color: var(--green);
+        text-align: center;
+        text-transform: uppercase;
+        
+        margin-top: 40px;
+    }
+    
+    h4 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 130%;
+        text-align: center;
+        color: var(--gray-headline);
+
+        margin-top: 16px;
+    }
 }

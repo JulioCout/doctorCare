@@ -1,33 +1,33 @@
 import React, { useState } from "react";
 import "./style.scss";
 
-import iconClose from "../../assets/images/Close.svg"
-import iconExpand from "../../assets/images/icon.svg"
+import closeIcon from "../../assets/images/Close.svg"
+import expandIcon from "../../assets/images/icon.svg"
 
-const NavBar: React.FC = () => {
+export default function NavBar() {
 
 
 
-    const [menuClass, setMenuClass] = useState("menu")
-    const [menuIcon, setMenuIcon] = useState(iconExpand)
+    const [navBarClass, setNavBarClass] = useState("navbar-body")
+    const [navBarIcon, setNavBarIcon] = useState(expandIcon)
 
     function handleMenuExpands() {
-        if(menuClass === "menu") {
-            setMenuClass("menu expand")
-            setMenuIcon(iconClose)
+        if(navBarClass === "navbar-body") {
+            setNavBarClass("navbar-body expand")
+            setNavBarIcon(closeIcon)
         } else {
-            setMenuClass("menu")
-            setMenuIcon(iconExpand)
+            setNavBarClass("navbar-body")
+            setNavBarIcon(expandIcon)
         }
     }
 
     return(
-        <div className={menuClass}>
+        <div className={navBarClass}>
 
             <div className="head">
 
                 <h2>Doctor<span>Care</span></h2>
-                <img onClick={handleMenuExpands} src={menuIcon} alt="" />
+                <img onClick={handleMenuExpands} src={navBarIcon} alt="" />
                 
                 
             </div>
@@ -67,5 +67,3 @@ const NavBar: React.FC = () => {
         </div>
     )
 }
-
-export default NavBar

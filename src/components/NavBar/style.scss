@@ -1,6 +1,8 @@
-.menu {
-    position: absolute;
-    min-width: 375px;
+.navbar-body {
+    position: fixed;
+    z-index: 3;
+    width: 100vw;
+    max-width: 1366px;
     height: 72px;
     overflow-y: hidden;
     font-family: 'DM Sans', sans-serif;
@@ -93,8 +95,8 @@
     }
 }
 
-@media screen and (min-width: 1180px) {
-    .menu {
+@media screen and (min-width: 1024px) {
+    .navbar-body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;

@@ -1,9 +1,9 @@
 import React from "react"
 import "./style.scss"
 
-const StatsInfo: React.FC = () => {
+export default function StatsInfo() {
     return(
-        <div className="stats">
+        <div className="statsInfo-body">
 
             <div className="text-wrapper">
                 <h2>+3.500</h2>
@@ -23,5 +23,3 @@ const StatsInfo: React.FC = () => {
         </div>
     )
 }
-
-export default StatsInfo

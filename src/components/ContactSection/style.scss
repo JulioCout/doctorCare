@@ -1,0 +1,43 @@
+.contactSection-body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-width: 375px;
+    max-width: 1366px;
+
+    background-color: var(--white);
+
+    padding: 100px 24px;
+
+    h4 {
+        text-align: left;
+        margin-bottom: 32px;
+    }
+
+    .contactInfoWrapper {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+
+        p {
+            color: var(--gray-paragraph);
+        }
+    }
+
+    button {
+        align-self: left;
+        margin-top: 16px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contactSection-body {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .text-wrapper {
+            max-width: 400px;
+        }
+    }
+}

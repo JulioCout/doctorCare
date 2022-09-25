@@ -1,0 +1,35 @@
+.aboutSection-body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-width: 375px;
+    max-width: 1366px;
+
+    background-color: var(--beige);
+    padding: 50px 24px 50px;
+
+    h3 {
+        text-align: left;
+    }
+
+    h4 {
+        text-align: left;
+    }
+
+    p {
+        margin-top: 24px;
+        margin-bottom: 60px;
+        color: var(--gray-paragraph);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .aboutSection-body {
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+
+        .aboutText {
+            max-width: 573px;
+        }
+    }
+}
