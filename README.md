@@ -20,7 +20,7 @@ Acesse em: https://juliodoctorcare.netlify.app
 
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de juliocscoutinho@outlook.com
+Se você tiver algum feedback, por favor me deixe saber por meio do e-mail: juliocscoutinho@outlook.com
 
 
 ## Autores
